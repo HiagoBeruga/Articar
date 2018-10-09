@@ -1,9 +1,9 @@
-#Articar
+# Articar
 
-##Equipe
+## Equipe
 
-*Hiago Gomes
+* Hiago Gomes
 
-*Lucas Leandro
+* Lucas Leandro
 
-*Maylle Kitamura
+* Maylle Kitamura
