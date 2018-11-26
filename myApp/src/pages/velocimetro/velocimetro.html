@@ -15,6 +15,10 @@
 
 <ion-content padding>
 
-	<br><br><br><br><br><br><br><br><br><br><h1 align="center">EM BREVE</h1>
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+  <ion-refresher-content pullingText="Arraste para atualizar" refreshingSpinner="circles" refreshingText="Atualizando...">
+
+  </ion-refresher-content>
+  </ion-refresher>
 
 </ion-content>
