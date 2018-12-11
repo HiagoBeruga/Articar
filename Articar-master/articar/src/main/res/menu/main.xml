@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/secure_connect_scan"
+        android:icon="@drawable/action_connect"
+        android:showAsAction="always"
+        android:title="@string/action_connect"
+        android:visible="true" />
+    <item
+        android:id="@+id/disconnect"
+        android:icon="@drawable/action_disconnect"
+        android:showAsAction="always"
+        android:title="@string/disconnect"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/day_night_mode"
+        android:icon="@drawable/ic_daynight"
+        android:showAsAction="ifRoom"
+        android:title="@string/day_night_mode"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="ifRoom"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/obd_services"
+        android:icon="@android:drawable/ic_menu_more"
+        android:menuCategory="container"
+        android:showAsAction="always"
+        android:title="@string/obd_services">
+        <menu>
+            <item
+                android:id="@+id/service_none"
+                android:title="@string/obd_none"
+                android:visible="false"/>
+            <item
+                android:id="@+id/service_vid_data"
+                android:title="@string/obd_veh_info"/>
+            <item
+                android:id="@+id/service_data"
+                android:title="@string/obd_data"/>
+        </menu>
+    </item>
+
+</menu>
